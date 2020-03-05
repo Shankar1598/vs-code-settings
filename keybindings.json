@@ -1,0 +1,58 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+shift+meta+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+      "key": "ctrl+shift+v",
+      "command": "extension.paste-and-indent",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+b",
+      "command": "HookyQR.beautify",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+d",
+      "command": "-workbench.view.debug"
+    },
+    {
+      "key": "ctrl+shift+d",
+      "command": "editor.action.selectHighlights",
+      "when": "editorFocus"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-editor.action.selectHighlights",
+      "when": "editorFocus"
+    },
+    {
+      "key": "ctrl+shift+m",
+      "command": "-workbench.actions.view.problems"
+    },
+    {
+      "key": "ctrl+shift+m",
+      "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+      "key": "ctrl+shift+alt+m",
+      "command": "extension.parseJson",
+      "when": "editorTextFocus && !editorReadonly"
+    }
+]
